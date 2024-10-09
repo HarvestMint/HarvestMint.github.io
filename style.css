@@ -1,1 +1,93 @@
+html{
+    background-color: rgb(19, 29, 29);
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+nav{
+ background-color: black; 
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden; 
+}
+ nav li {
+    display: inline-block;
+  font-size: 20px;
+  padding: 5px;
+  }
+  /* unvisited link */
+a:link {
+    color: rgb(255, 252, 252);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: mediumpurple;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: cadetblue;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  main{
+    max-width: 1000px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
 
+  }
+  p{
+    color: antiquewhite;
+  }
+  h1{
+    color: cadetblue;
+    font-size: 50px;
+    font-weight: bolder;
+  }
+  h2{
+    color: mediumpurple;
+  }
+  footer{
+    text-align: center;
+  }
+  .list-box, .contact-inputs{
+    width: 50%;
+    padding: 5px;
+    margin: auto;
+    list-style-type: none;
+  }
+  img:hover{
+    filter: drop-shadow(10px 10px 20px black);
+  }
+  .summary-box, .about-content{
+    width: 700px;
+    margin: auto;
+  }
+  
+  .submit-button{
+    width: 64px;
+    height: 32px;
+    background-color:rgb(19, 29, 29);
+    color: cadetblue;
+  }
+  .submit-button:hover{
+    background-color: darkgrey;
+  }
+  label{
+    font-size: 24px;
+    color:antiquewhite;
+    text-align: left;
+
+  }
+ form{
+  border: 2px solid mediumpurple;
+ }
+ .list{
+  list-style-type: none;
+ }
+ 
