@@ -87,6 +87,9 @@ a:link {
  form{
   border: 2px solid mediumpurple;
  }
+.card-deck{
+    display: flex;
+}
  .list{
   list-style-type: none;
  }
